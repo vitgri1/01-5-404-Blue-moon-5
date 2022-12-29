@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+main{
+    display: inline-block;
+    width: 100%;
+    font-family: monospace;
+    color: white;
+}
+img{
+    width: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    color: violet;
+}
+nav,
+footer{
+    display: inline-block;
+    width: 80%;
+    margin: 10%;
+    margin-top: 60%;
+}
+h1{
+    font-size: 150%;
+    font-weight: normal;
+    margin: 0;
+}
+p{
+    margin: 0;
+    margin-bottom: 60px;
+}
