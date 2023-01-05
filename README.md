@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vitgri1.github.io/01-5-Blue-moon-5/
+Site published at: https://vitgri1.github.io/01-5-404-Blue-moon-5/
 
 Design: [Blue moon](https://cdn.dribbble.com/users/1343667/screenshots/3476313/attachments/765707/jadi.png)
 
