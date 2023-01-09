@@ -34,10 +34,15 @@ padding: 0;
 
 .menu,
 .socials{
-    display: inline-block;
+    display: flex;
+    gap: 1.5em;
     width: 80%;
     margin: 10%;
     margin-top: 60%;
+}
+
+.menu{
+    flex-direction: column;
 }
 
 .menu-item{
@@ -45,9 +50,7 @@ padding: 0;
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-    margin-bottom: 1em;
     line-height: 1em;
-    margin-right: 1em;
 }
 
 .blue{
