@@ -7,12 +7,13 @@ padding: 0;
 
 .container{
     display: inline-block;
-    width: 900px;
-    height: 500px;
-    margin-left: calc(50% - 450px);
-    margin-top: calc(50vh - 250px);
+    width: 1350px;
+    height: 750px;
+    margin-left: calc(50% - 675px);
+    margin-top: calc(50vh - 375px);
     font-family: monospace;
     color: white;
+    font-size: 24px;
 }
 
 .left-column{
@@ -84,11 +85,27 @@ padding: 0;
 }
 
 .main-image{
-    margin-top: 200px;
+    font-size: inherit;
+    margin-top: 12.5em;
     width: 100%;
     height: 20%;
     object-fit: contain;
     user-select: none;
+}
+
+.main-image:hover{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
 }
 
 .title{
@@ -113,4 +130,45 @@ padding: 0;
 .go-home:hover{
     text-decoration: underline;
     color: #000;
+}
+
+@media (max-width: 1350px) {
+    .container{
+        width: 900px;
+        height: 500px;
+        margin-left: calc(50% - 450px);
+        margin-top: calc(50vh - 250px);
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container{
+        width: 630px;
+        height: 350px;
+        margin-left: calc(50% - 315px);
+        margin-top: calc(50vh - 175px);
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 630px) {
+    .container{
+        width: 450px;
+        height: 250px;
+        margin-left: calc(50% - 225px);
+        margin-top: calc(50vh - 125px);
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+    }
+    .socials{
+        flex-wrap: wrap;
+    }
 }
